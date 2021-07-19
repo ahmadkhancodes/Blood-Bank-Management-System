@@ -1,0 +1,136 @@
+body {
+  background-image: url("./asset/background.png");
+  background-size: cover;
+}
+
+#signin {
+  margin-top: 150px;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+#signin input {
+  padding: 3px;
+  outline: none;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 75%;
+  border: 0.333px solid #d92739;
+  font-size: 14px;
+  font-family: inherit;
+  background: #e5e5e5;
+  line-height: 40px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding-right: 50;
+  font-size: 16px;
+  color: #d92739;
+}
+
+#button {
+  padding: 3px;
+  outline: none;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 75%;
+  font-size: 14px;
+  font-family: inherit;
+  background: #d92739;
+  line-height: 40px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /* padding: 10 22px; */
+  font-size: 16px;
+  color: blanchedalmond;
+}
+
+#button:hover {
+  background-color: white !important;
+  color: #d92739;
+  font-weight: bolder;
+  transition: 0.1s ease-in;
+}
+
+.card {
+  text-align: center;
+  padding: 10px;
+  color: whitesmoke;
+  background-color: #d92739;
+}
+.stock-card {
+  text-align: center;
+  padding: 10px;
+  color: whitesmoke;
+  background-color: #d92739;
+}
+.card:hover {
+  text-align: center;
+  padding: 10px;
+  color: #d92739;
+  background-color: whitesmoke;
+  transition: 0.3s ease-in;
+}
+
+.card,
+.stock-card i {
+  font-size: 35px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#add-blood-form input,
+select,
+option,
+textarea {
+  padding: 3px;
+  outline: none;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: inherit;
+  background: #d64453;
+  line-height: 40px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /* padding: 10 22px; */
+  font-size: 16px;
+  color: white;
+}
+
+.extramargin {
+  padding-top: 3% !important;
+  padding-bottom: 3% !important;
+}
+
+#add-blood {
+  width: 100% !important;
+  background-color: #d92739 !important;
+  color: blanchedalmond !important;
+}
+
+#add-blood:hover {
+  background-color: white !important;
+  color: #d92739 !important;
+  font-weight: bolder;
+  transition: 0.1s ease-in;
+}
+
+.button-margin {
+  margin-top: 32px !important;
+}
